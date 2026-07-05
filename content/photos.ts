@@ -24,7 +24,7 @@ import type { PhotoMeta } from "@/lib/types";
 export const overrides: Record<string, PhotoMeta> = {
   // ── wildlife ──────────────────────────────────────────────
   "wildlife_1.jpg": {
-    location: "boulders beach, cape down",
+    location: "boulders beach, cape town",
     caption: "after all, pengiuns technically are birds?",
   },
 
@@ -42,4 +42,10 @@ export const overrides: Record<string, PhotoMeta> = {
   "places_1.jpg": {
     location: "cape town",
   },
+  "places_2.jpg": {
+    location: "mount fuji",
+  },
+  "places_3.jpg": {
+    location: "ginza, tokyo"
+  }
 };
