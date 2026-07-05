@@ -41,14 +41,5 @@ export const overrides: Record<string, PhotoMeta> = {
   // ── places ────────────────────────────────────────────────
   "places_1.jpg": {
     location: "cape town",
-    month: "june",
-    year: 2026,
-    date: "2026-06-19",
-    camera: "Canon EOS 500D",
-    lens: "Canon EF-S 18-200mm f/3.5-5.6 IS",
-    shutter: "1/320s",
-    aperture: "f/10",
-    iso: 160,
-    focalLength: "80mm",
   },
 };
