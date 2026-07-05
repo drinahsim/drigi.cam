@@ -39,7 +39,9 @@ export const overrides: Record<string, PhotoMeta> = {
   },
 
   // ── sports ────────────────────────────────────────────────
-  "sample-sports-1.jpg": {
+  "sports_1.jpg": {
+    title: "last dance",
+    location: "national stadium",
   },
 
   // ── places ────────────────────────────────────────────────

@@ -1,4 +1,5 @@
 import { site } from "@content/site";
+import { ContactEmail } from "./contact-email";
 
 export function Contact() {
   const { contact } = site;
@@ -24,12 +25,7 @@ export function Contact() {
         )}
         <li className="flex gap-3">
           <span className="w-20 text-[color:var(--muted)]">email</span>
-          <a
-            href={`mailto:${contact.email}`}
-            className="border-b border-[color:var(--border)] transition-colors hover:border-[color:var(--text)]"
-          >
-            {contact.email}
-          </a>
+          <ContactEmail email={contact.email} />
         </li>
       </ul>
     </section>
