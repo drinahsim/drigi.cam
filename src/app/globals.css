@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/*
+  the whole palette lives here.
+  the photographs provide every other colour.
+*/
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --muted: #777777;
+  --border: #ececec;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #ececec;
+  color: #1a1a1a;
+}
+
+/* respect people who prefer less motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
