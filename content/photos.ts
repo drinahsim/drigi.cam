@@ -23,25 +23,19 @@ import type { PhotoMeta } from "@/lib/types";
 
 export const overrides: Record<string, PhotoMeta> = {
   // ── wildlife ──────────────────────────────────────────────
-  "sample-wildlife-1.jpg": {
-    title: "sample-wildlife",
-    location: "location",
-    month: "january",
-    year: 2026,
-    date: "2026-01-01",
-    camera: "camera",
-    lens: "lens",
-    shutter: "shutter",
-    aperture: "aperture",
-    iso: 0,
-    focalLength: "focalLength",
-    caption: "caption",
+  "wildlife_1.jpg": {
+    location: "boulder beachs, cape down",
+    caption: "after all, pengiuns technically are birds?",
   },
 
   // ── sports ────────────────────────────────────────────────
   "sports_1.jpg": {
-    title: "last dance",
     location: "national stadium",
+    caption: "last dance",
+  },
+  "sports_2.jpg": {
+    location: "sengkang hockey pitch",
+    caption: "history made",
   },
 
   // ── places ────────────────────────────────────────────────
