@@ -45,7 +45,4 @@ export const overrides: Record<string, PhotoMeta> = {
   "places_2.jpg": {
     location: "mount fuji",
   },
-  "places_3.jpg": {
-    location: "ginza, tokyo"
-  }
 };
