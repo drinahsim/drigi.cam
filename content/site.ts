@@ -33,7 +33,7 @@ export const site: SiteConfig = {
   meta: {
     title: "from drinah's digicams",
     description: "a digital diary of pics i love!",
-    ogImage: "/photos/places/sample-places-1.jpg",
+    ogImage: "/photos/places/places_1.jpg",
   },
 
   // the top of the homepage
