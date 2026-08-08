@@ -48,4 +48,12 @@ export const overrides: Record<string, PhotoMeta> = {
   "places_3.jpg": {
     location: "cape town",
   },
+
+  "places_4.png": {
+    location: "elephant hills resort, zimbabwe",
+    month: "june",
+    date: "2026-06-15",
+    camera: "Canon EOS 500D",
+    lens: "Canon EF-S 18-200mm f/3.5-5.6 IS",
+  }
 };
