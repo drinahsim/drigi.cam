@@ -1,12 +1,21 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
-import { Inter } from "next/font/google";
+import { Inter, Newsreader } from "next/font/google";
 import { site } from "@content/site";
 import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+  display: "swap",
+});
+
+// used only for the photo title in the lightbox — an editorial,
+// journal-like accent against the sans-serif metadata beneath it.
+const newsreader = Newsreader({
+  subsets: ["latin"],
+  style: ["italic"],
+  variable: "--font-serif",
   display: "swap",
 });
 
@@ -34,7 +43,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html lang="en" className={`${inter.variable} ${newsreader.variable}`}>
       <body>{children}</body>
     </html>
   );

@@ -151,7 +151,9 @@ export function Lightbox({
 
           {hasMeta && (
             <div className="mt-6 w-full max-w-md text-sm lowercase">
-              {photo.title && <p className="mb-3 text-base">{photo.title}</p>}
+              {photo.title && (
+                <p className="mb-5 font-[family-name:var(--font-serif)] text-lg italic">{photo.title}</p>
+              )}
               <dl>
                 <MetaRow label="location" value={photo.location} />
                 <MetaRow label="date" value={date} />
