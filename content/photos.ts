@@ -52,7 +52,8 @@ export const overrides: Record<string, PhotoMeta> = {
   "places_4.png": {
     location: "elephant hills resort, zimbabwe",
     month: "june",
-    year: "2026",
+    year: 2026,
+    date: "2026-06-15",
     camera: "Canon EOS 500D",
     lens: "EF-S 18-200mm f/3.5-5.6 IS",
   }
