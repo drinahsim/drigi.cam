@@ -46,9 +46,9 @@ export const site: SiteConfig = {
   // to add a category: make a folder in /public/photos and add a line here.
   // to reorder: move the lines around. to rename: change the title.
   categories: [
-    { slug: "wildlife", title: "wildlife" },
-    { slug: "sports", title: "sports" },
     { slug: "places", title: "places" },
+    { slug: "sports", title: "sports" },
+    { slug: "wildlife", title: "wildlife" },
   ],
 
   about: {
